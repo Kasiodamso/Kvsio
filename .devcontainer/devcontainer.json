@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kvsio - Vente de vêtements</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Kvsio</h1>
+    <button id="cartButton">Panier</button>
+  </header>
+
+  <main>
+    <div class="product">
+      <img src="chemise.jpg" alt="Chemise">
+      <h2>Chemise</h2>
+      <p>Prix: $29.99</p>
+      <button class="addToCart">Ajouter au panier</button>
+    </div>
+    
+    <!-- Ajoutez d'autres produits similaires ici -->
+    
+  </main>
+
+  <div id="cartOverlay" class="overlay">
+    <div class="cart">
+      <h2>Votre panier</h2>
+      <ul id="cartItems">
+        <!-- Les éléments du panier seront ajoutés dynamiquement ici -->
+      </ul>
+      <p id="totalPrice">Total: $0.00</p>
+      <button id="checkoutButton">Payer</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
